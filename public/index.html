@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Live Streaming App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Streaming App</h1>
+        <video autoplay muted id="user-video"></video>
+        <button id="start-btn">Start</button>
+        <button id="stop-btn">Stop</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

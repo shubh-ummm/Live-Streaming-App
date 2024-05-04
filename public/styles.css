@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#user-video {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #E63946;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(1px); /* Button press effect */
+}
+
+button#stop-btn {
+    background-color: #457B9D; /* Steel blue color for stop button */
+}
